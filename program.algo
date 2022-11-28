@@ -1,0 +1,35 @@
+ALGORITHM checkpoint 
+VAR  
+i,j,k:INTEGER
+ch,nb_mots:STRING
+
+BEGIN
+    FOR i FROM 1 TO n STEP step  DO
+    REPEAT
+       read(ch)
+    UNTIL (ch[n]='.')
+    write (ch)
+END_FOR
+ j:=0
+FOR j FROM 1 TO length(ch) STEP step  DO
+
+    j=j+1
+    write("longuere de cette sentence est"j)
+END_FOR
+nb_mots:=0
+FOR s FROM 1 TO (length(ch)-1) STEP step  DO
+    
+
+END_FOR
+ k:=0
+FOR k FROM 1 TO n STEP step  DO
+    IF (k=['a','e','i','u','o','A','E','U','I','O']) THEN
+        k=k+1 
+        write ("nombre des vowyelle est :",k)
+     ELSE
+        write("il n'est y pas des vowyelle")
+        END_IF
+        write(k)
+END_FOR
+
+END
